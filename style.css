@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+body{
+    background-image: linear-gradient(180deg, rgb(31, 2, 60), rgba(0, 0, 0, 1));
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+}
+
+h1{
+    /* color: #bfbaba; */
+    color: #eee9e9;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    margin: 5px 20px;
+    justify-content: center;
+    color: #eee9e9;
+}
+
+.container-1, .container-2{
+    height: 600px;
+    margin: 40px 30px;
+    width: 45%;
+    border: none;
+    border-radius: 10px;
+    /* background-color: #2e2e2e; */
+    background: linear-gradient(rgba(69, 65, 65, 0.5),rgba(69, 65, 65, 0.687));
+
+}
+
+.contain1{
+    margin: 10px 20px;
+}
+
+.contain1 h2, .contain2 h2{
+    font-weight: bolder;
+    text-align: center;
+    font-size:30px;
+}
+
+#name, #title, #description{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+label{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+input{
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+    font-family: "Ubuntu", serif;
+    background-color: rgba(69, 65, 65, 0.5);
+    color: #eee9e9;
+}
+
+#description-input {
+    height: 90px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+    font-family: "Ubuntu", serif;
+    background-color: rgba(69, 65, 65, 0.5);
+    color: #eee9e9;
+}
+
+.submit-btn{
+    font-family: "Ubuntu", serif;
+    padding: 0px 35px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+#btn{
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: chartreuse;
+    font-family: "Ubuntu", serif;
+}
+
+#btn:hover{
+    background-color: rgb(20, 233, 20);
+}
+
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding: 10px 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(rgba(69, 65, 65, 0.5),rgba(69, 65, 65, 0.687));
+}
+
+ul h3{
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+
+.contain2 {
+  height: 100%; 
+  overflow-y: auto;  /* Added a scroll bar */
+}
+
+.contain2 h2 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 30px;
+  position: sticky;
+  top: 0;
+  background: rgba(69, 65, 65, 0.3), inherit; 
+  padding: 20px 0;
+  backdrop-filter: blur(8px); 
+  /* z-index: 1; */
+}
+
+.contain2::-webkit-scrollbar {
+  display: none;
+}
+
+
+i{
+  text-transform: capitalize;
+}
